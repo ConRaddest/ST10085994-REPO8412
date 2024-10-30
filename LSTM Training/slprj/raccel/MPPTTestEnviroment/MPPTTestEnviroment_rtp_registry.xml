@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/slsa_mm_rtp_registry/R2023a">
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="9567d13e-7859-4483-8ed0-c57bb4993a90">
+    <parameter type="slsa.mm.rtpregistry.SFunctionParameter" uuid="67c26913-a678-4d5b-9d91-064b031d472c"/>
+    <valueIndices>3615</valueIndices>
+    <valueIndices>3630</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.ModelMetadata type="slsa.mm.rtpregistry.ModelMetadata" uuid="3528edc7-c69b-4503-ba47-24448b703336">
+    <modelName>MPPTTestEnviroment</modelName>
+  </slsa.mm.rtpregistry.ModelMetadata>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="dee71800-fa38-4701-83a3-5cca130ea617">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="2452189b-089e-4ae4-8201-cf23304e4f08"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="e42d37ec-ea64-4f4e-8f04-352824bad47b"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="a4978fab-4a14-40e2-bb49-a3ba932a4f6f">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="5dccb4b8-80d6-4435-86c5-976240900447"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="0f171bf8-91ee-40bd-92bb-19201c9a5f31"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="64f4f004-63b4-4985-a8b5-8cda70d1c58f">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="8e300e20-42c3-405a-8f56-33cb25bac961"/>
+    <valueIndices>3720</valueIndices>
+    <valueIndices>3720</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="2452189b-089e-4ae4-8201-cf23304e4f08">
+    <blockPath>MPPTTestEnviroment/MPPT Algorithms/FV/PWM Generator (5KHz)/Sawtooth Generator/Model/1\ib1</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="dee71800-fa38-4701-83a3-5cca130ea617"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="e42da7d8-702b-4e0d-ba91-d9e1119a562e">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="07f7b952-6ff0-4ae6-be55-a6fb80732131"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="6709a042-d405-4f6c-bce5-3643b028959a"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="e42d37ec-ea64-4f4e-8f04-352824bad47b">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="dee71800-fa38-4701-83a3-5cca130ea617"/>
+    <valueIndices>1</valueIndices>
+    <valueIndices>1</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="0f171bf8-91ee-40bd-92bb-19201c9a5f31">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="a4978fab-4a14-40e2-bb49-a3ba932a4f6f"/>
+    <valueIndices>3731</valueIndices>
+    <valueIndices>3731</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="8f28b037-05d5-4e7a-b8ba-be0ef9b78edf">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="d3b11b38-4ada-4442-ab6e-ae78a341f8e9"/>
+    <valueIndices>3721</valueIndices>
+    <valueIndices>3721</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.SFunctionParameter type="slsa.mm.rtpregistry.SFunctionParameter" uuid="cf9105b4-4b03-43a1-83f0-a5f8fa875e65">
+    <isInlined>true</isInlined>
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="6cc462e9-f8de-4ba1-bd12-975054e92526"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="739d4676-4f67-4773-870a-f502c89c67bb"/>
+  </slsa.mm.rtpregistry.SFunctionParameter>
+  <slsa.mm.rtpregistry.SFunctionParameter type="slsa.mm.rtpregistry.SFunctionParameter" uuid="67c26913-a678-4d5b-9d91-064b031d472c">
+    <isInlined>true</isInlined>
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="29465857-875f-4877-b7cc-23fa2dbf5ae2"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="9567d13e-7859-4483-8ed0-c57bb4993a90"/>
+  </slsa.mm.rtpregistry.SFunctionParameter>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="674e8448-d452-49ac-9993-ee5a1d677cf1">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="6f3192f4-5922-48aa-a1a9-fc35427cd745"/>
+    <valueIndices>3729</valueIndices>
+    <valueIndices>3729</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="e915c240-9bcd-410e-b442-3eecf2526ba1">
+    <blockPath>MPPTTestEnviroment/PV Array/IL ctrl/IL_module</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="a6b42e9d-1d03-4b95-adbc-6f873c2d8b8c"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="29465857-875f-4877-b7cc-23fa2dbf5ae2">
+    <blockPath>MPPTTestEnviroment/powergui/EquivalentModel1/State-Space</blockPath>
+    <name>AS_param</name>
+    <parameter type="slsa.mm.rtpregistry.SFunctionParameter" uuid="67c26913-a678-4d5b-9d91-064b031d472c"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="6cc462e9-f8de-4ba1-bd12-975054e92526">
+    <blockPath>MPPTTestEnviroment/powergui/EquivalentModel1/State-Space</blockPath>
+    <name>BS_param</name>
+    <parameter type="slsa.mm.rtpregistry.SFunctionParameter" uuid="cf9105b4-4b03-43a1-83f0-a5f8fa875e65"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="739d4676-4f67-4773-870a-f502c89c67bb">
+    <parameter type="slsa.mm.rtpregistry.SFunctionParameter" uuid="cf9105b4-4b03-43a1-83f0-a5f8fa875e65"/>
+    <valueIndices>3631</valueIndices>
+    <valueIndices>3650</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.SFunctionParameter type="slsa.mm.rtpregistry.SFunctionParameter" uuid="889f65ab-d84b-41b8-8afa-c8e792c943e7">
+    <isInlined>true</isInlined>
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="d9ab1bf9-54a8-42af-8256-7cb4e1b43849"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="82ac1384-68d8-457a-9233-ff9bef15a515"/>
+  </slsa.mm.rtpregistry.SFunctionParameter>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="88834711-e6fd-4732-af83-a4d7b20cf316">
+    <blockPath>MPPTTestEnviroment/PV Array/Diode Rsh/I0_array</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="6f3192f4-5922-48aa-a1a9-fc35427cd745"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="990e46c1-fc87-4fac-ba3d-8c35e12c2225">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="82e6a0cc-71b5-470f-b8a2-0b0c4b47a982"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="fb896b09-dfdc-4d99-a837-2107ddefea0d"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="d9ab1bf9-54a8-42af-8256-7cb4e1b43849">
+    <blockPath>MPPTTestEnviroment/powergui/EquivalentModel1/State-Space</blockPath>
+    <name>CS_param</name>
+    <parameter type="slsa.mm.rtpregistry.SFunctionParameter" uuid="889f65ab-d84b-41b8-8afa-c8e792c943e7"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="82ac1384-68d8-457a-9233-ff9bef15a515">
+    <parameter type="slsa.mm.rtpregistry.SFunctionParameter" uuid="889f65ab-d84b-41b8-8afa-c8e792c943e7"/>
+    <valueIndices>3651</valueIndices>
+    <valueIndices>3674</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="82e6a0cc-71b5-470f-b8a2-0b0c4b47a982">
+    <blockPath>MPPTTestEnviroment/PV Array/Diode Rsh/EgRef</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="990e46c1-fc87-4fac-ba3d-8c35e12c2225"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="8e300e20-42c3-405a-8f56-33cb25bac961">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="ea8921a3-0264-436d-9146-381301d42558"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="64f4f004-63b4-4985-a8b5-8cda70d1c58f"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.SFunctionParameter type="slsa.mm.rtpregistry.SFunctionParameter" uuid="8eab53de-1724-4470-8050-70cce34fae6e">
+    <isInlined>true</isInlined>
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="edaaa421-247e-4bed-91ac-60a6693bf843"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="52ead5ae-9fff-44b0-9e53-890eafac8f9d"/>
+  </slsa.mm.rtpregistry.SFunctionParameter>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="add755e8-2d34-4ed9-80cd-7e08cc5735cb">
+    <blockPath>MPPTTestEnviroment/PV Array/Diode Rsh/Tref_K1</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="a141b7bd-3e06-4292-81d1-5452716f81a0"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="edaaa421-247e-4bed-91ac-60a6693bf843">
+    <blockPath>MPPTTestEnviroment/powergui/EquivalentModel1/State-Space</blockPath>
+    <name>DS_param</name>
+    <parameter type="slsa.mm.rtpregistry.SFunctionParameter" uuid="8eab53de-1724-4470-8050-70cce34fae6e"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="12f95480-980a-4612-91a6-e35b3f653967">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="221b64b1-1822-45b5-be8f-a97c324e08fa"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="ddd40a6d-40e6-4a7a-9781-ff87e1e1ad6a"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="52ead5ae-9fff-44b0-9e53-890eafac8f9d">
+    <parameter type="slsa.mm.rtpregistry.SFunctionParameter" uuid="8eab53de-1724-4470-8050-70cce34fae6e"/>
+    <valueIndices>3675</valueIndices>
+    <valueIndices>3704</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.SFunctionParameter type="slsa.mm.rtpregistry.SFunctionParameter" uuid="dba5598d-dfe6-4390-913b-b7ec6953b2e8">
+    <isInlined>true</isInlined>
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="d8f99304-8fa5-4c7b-bc27-d02f79b8b36a"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="0409abc4-68db-4664-94ec-af8a4673a31b"/>
+  </slsa.mm.rtpregistry.SFunctionParameter>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="d8f99304-8fa5-4c7b-bc27-d02f79b8b36a">
+    <blockPath>MPPTTestEnviroment/powergui/EquivalentModel1/State-Space</blockPath>
+    <name>X0_param</name>
+    <parameter type="slsa.mm.rtpregistry.SFunctionParameter" uuid="dba5598d-dfe6-4390-913b-b7ec6953b2e8"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="4462c0cc-df8d-4477-9ac6-8509d6e04400">
+    <blockPath>MPPTTestEnviroment/PV Array/Diode Rsh/Subsystem/EgRef</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="3b382ffb-1f04-4239-958a-b5157c7f2114"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="0409abc4-68db-4664-94ec-af8a4673a31b">
+    <parameter type="slsa.mm.rtpregistry.SFunctionParameter" uuid="dba5598d-dfe6-4390-913b-b7ec6953b2e8"/>
+    <valueIndices>3705</valueIndices>
+    <valueIndices>3708</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="305f77bd-3c1b-43d1-93cd-db0a5a585604">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="e24c96af-9275-4032-b632-fc26fddb2700"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="1f672f11-f3bb-404a-b457-c998d5b95a15"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="225dda13-b8d7-4dd4-9cf6-c4a4485db2ea">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="3b382ffb-1f04-4239-958a-b5157c7f2114"/>
+    <valueIndices>3730</valueIndices>
+    <valueIndices>3730</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="221b64b1-1822-45b5-be8f-a97c324e08fa">
+    <blockPath>MPPTTestEnviroment/PV Array/Diode Rsh/Rsh_array_5%Sref</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="12f95480-980a-4612-91a6-e35b3f653967"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="e24c96af-9275-4032-b632-fc26fddb2700">
+    <blockPath>MPPTTestEnviroment/MPPT Algorithms/FV/PWM Generator (5KHz)/Sawtooth Generator/Model/Constant3</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="305f77bd-3c1b-43d1-93cd-db0a5a585604"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="1f672f11-f3bb-404a-b457-c998d5b95a15">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="305f77bd-3c1b-43d1-93cd-db0a5a585604"/>
+    <valueIndices>3713</valueIndices>
+    <valueIndices>3713</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="a179bcb4-e433-4460-8879-a71993e3d75e">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="7e93aa15-5012-4717-94d7-b8e4d3bee220"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="09d3c330-d493-4a9a-ac9e-93bb7657044e"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="a141b7bd-3e06-4292-81d1-5452716f81a0">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="add755e8-2d34-4ed9-80cd-7e08cc5735cb"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="6a1daade-ade0-4c69-a072-6911f8e7a6cf"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="7e93aa15-5012-4717-94d7-b8e4d3bee220">
+    <blockPath>MPPTTestEnviroment/MPPT Algorithms/FV/PWM Generator (5KHz)/Sawtooth Generator/Model/Constant2</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="a179bcb4-e433-4460-8879-a71993e3d75e"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="09d3c330-d493-4a9a-ac9e-93bb7657044e">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="a179bcb4-e433-4460-8879-a71993e3d75e"/>
+    <valueIndices>3714</valueIndices>
+    <valueIndices>3714</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="6a6e7330-9678-4c4d-a8b0-3f43bf398615">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="2a686503-cea9-459e-848a-8e7c47f680cf"/>
+    <valueIndices>3728</valueIndices>
+    <valueIndices>3728</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="2a686503-cea9-459e-848a-8e7c47f680cf">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="26644274-891a-40c0-81a5-1031e33da21f"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="6a6e7330-9678-4c4d-a8b0-3f43bf398615"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="6a1daade-ade0-4c69-a072-6911f8e7a6cf">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="a141b7bd-3e06-4292-81d1-5452716f81a0"/>
+    <valueIndices>3725</valueIndices>
+    <valueIndices>3725</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="ea8921a3-0264-436d-9146-381301d42558">
+    <blockPath>MPPTTestEnviroment/PV Array/IL ctrl/Tref_K</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="8e300e20-42c3-405a-8f56-33cb25bac961"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="d3b11b38-4ada-4442-ab6e-ae78a341f8e9">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="00922336-87c4-4dc3-8eb2-9ed3de622d55"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="8f28b037-05d5-4e7a-b8ba-be0ef9b78edf"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="00922336-87c4-4dc3-8eb2-9ed3de622d55">
+    <blockPath>MPPTTestEnviroment/PV Array/IL ctrl/alpha_Isc</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="d3b11b38-4ada-4442-ab6e-ae78a341f8e9"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="00d44f98-f067-4060-a5f8-039a9e8f683d">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="2f058062-424b-4610-80b8-2dd988852538"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="0515b414-3c07-467f-a680-b4864c670cef"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="26644274-891a-40c0-81a5-1031e33da21f">
+    <blockPath>MPPTTestEnviroment/PV Array/Diode Rsh/Tref_K2</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="2a686503-cea9-459e-848a-8e7c47f680cf"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="a6b42e9d-1d03-4b95-adbc-6f873c2d8b8c">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="e915c240-9bcd-410e-b442-3eecf2526ba1"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="fd6af918-cd0c-403d-80ac-21590bc51b57"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="fd6af918-cd0c-403d-80ac-21590bc51b57">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="a6b42e9d-1d03-4b95-adbc-6f873c2d8b8c"/>
+    <valueIndices>3722</valueIndices>
+    <valueIndices>3722</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="2f058062-424b-4610-80b8-2dd988852538">
+    <blockPath>MPPTTestEnviroment/PV Array/Vdiode/Rs_array_</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="00d44f98-f067-4060-a5f8-039a9e8f683d"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="2f098108-2122-4b7d-8dee-af935e9b4a23">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="94c5864e-2a2d-4f5d-8734-78599f49a6f7"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="415ea752-edb8-4cb7-81ef-fcff427c28fa"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="6f3192f4-5922-48aa-a1a9-fc35427cd745">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="88834711-e6fd-4732-af83-a4d7b20cf316"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="674e8448-d452-49ac-9993-ee5a1d677cf1"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="0515b414-3c07-467f-a680-b4864c670cef">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="00d44f98-f067-4060-a5f8-039a9e8f683d"/>
+    <valueIndices>3723</valueIndices>
+    <valueIndices>3723</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="b46532ca-600f-4654-8f86-301b8c725cf2">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="cd3401dd-2f66-4705-9900-322b9ea3b139"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="cbf10e3a-7bb8-4ce9-b86c-0a209d792ff9"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="cd3401dd-2f66-4705-9900-322b9ea3b139">
+    <blockPath>MPPTTestEnviroment/PV Array/Diode Rsh/dEgdT</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="b46532ca-600f-4654-8f86-301b8c725cf2"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="cbf10e3a-7bb8-4ce9-b86c-0a209d792ff9">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="b46532ca-600f-4654-8f86-301b8c725cf2"/>
+    <valueIndices>3726</valueIndices>
+    <valueIndices>3726</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="3b382ffb-1f04-4239-958a-b5157c7f2114">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="4462c0cc-df8d-4477-9ac6-8509d6e04400"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="225dda13-b8d7-4dd4-9cf6-c4a4485db2ea"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="fb896b09-dfdc-4d99-a837-2107ddefea0d">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="990e46c1-fc87-4fac-ba3d-8c35e12c2225"/>
+    <valueIndices>3727</valueIndices>
+    <valueIndices>3727</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="ddd40a6d-40e6-4a7a-9781-ff87e1e1ad6a">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="12f95480-980a-4612-91a6-e35b3f653967"/>
+    <valueIndices>3733</valueIndices>
+    <valueIndices>3733</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="5dccb4b8-80d6-4435-86c5-976240900447">
+    <blockPath>MPPTTestEnviroment/PV Array/Diode Rsh/Subsystem/k1</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="a4978fab-4a14-40e2-bb49-a3ba932a4f6f"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="94c5864e-2a2d-4f5d-8734-78599f49a6f7">
+    <blockPath>MPPTTestEnviroment/PV Array/Diode Rsh/Rsh_array</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="2f098108-2122-4b7d-8dee-af935e9b4a23"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="415ea752-edb8-4cb7-81ef-fcff427c28fa">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="2f098108-2122-4b7d-8dee-af935e9b4a23"/>
+    <valueIndices>3732</valueIndices>
+    <valueIndices>3732</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="07f7b952-6ff0-4ae6-be55-a6fb80732131">
+    <blockPath>MPPTTestEnviroment/PV Array/Diode Rsh/VT_ref_array</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="e42da7d8-702b-4e0d-ba91-d9e1119a562e"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="6709a042-d405-4f6c-bce5-3643b028959a">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="e42da7d8-702b-4e0d-ba91-d9e1119a562e"/>
+    <valueIndices>3734</valueIndices>
+    <valueIndices>3734</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="d5349824-3d45-4eda-a28d-c7c41328b9db">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="b5212e45-2e28-43db-8b67-5bc4b3cbaa24"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="19942249-fdb4-4ecf-a5e5-8f4f76785bab"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="b5212e45-2e28-43db-8b67-5bc4b3cbaa24">
+    <blockPath>MPPTTestEnviroment/D1/Model/eee</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="d5349824-3d45-4eda-a28d-c7c41328b9db"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="19942249-fdb4-4ecf-a5e5-8f4f76785bab">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="d5349824-3d45-4eda-a28d-c7c41328b9db"/>
+    <valueIndices>3736</valueIndices>
+    <valueIndices>3736</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+</MF0>

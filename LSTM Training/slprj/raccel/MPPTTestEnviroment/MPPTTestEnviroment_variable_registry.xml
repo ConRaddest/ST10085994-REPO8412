@@ -1,0 +1,1136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/slsa_mm_parameter_tuning/R2021b">
+  <slsa.mm.parametertuning.VariableRegistry type="slsa.mm.parametertuning.VariableRegistry" uuid="ffc5a4d1-d516-43e0-8039-e5fbbf573691">
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="c67e6a13-5226-49ea-88f9-17e41b420354">
+      <blockPath>MPPTTestEnviroment/powergui/EquivalentModel1/State-Space</blockPath>
+      <parameterName>CS_param</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="f591c95a-7578-4e8e-bb53-68ddbd7d4ffc"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="498c8716-b226-4c49-b159-99b7743a9893">
+        <className>double</className>
+        <dimensions>6</dimensions>
+        <dimensions>4</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="d6a89531-72be-4965-bada-56b4f1f73aae">
+      <blockPath>MPPTTestEnviroment/MPPT Algorithms/FV/PWM Generator (5KHz)/Sawtooth Generator/Model/Constant3</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="ba657c7a-ff6c-455e-83be-16d869ff2e54"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="56c4c56d-9e50-40be-8a2f-734184e83a10">
+      <blockPath>MPPTTestEnviroment/MPPT Algorithms/FV/PWM Generator (5KHz)/Sawtooth Generator/Model/1\ib1</blockPath>
+      <parameterName>Gain</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="daa39615-f12a-41e7-9745-c44a07979790"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="2f9299e1-12ab-42b1-b79d-d570d5fa342f">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="2bb6e6d1-a437-4282-a4a7-2ad1cd0a7897">
+      <blockPath>MPPTTestEnviroment/MPPT Algorithms/FV/PWM Generator (5KHz)/Sawtooth Generator/Model/Constant3</blockPath>
+      <parameterName>Value</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="00ea62bb-afc6-45cc-88e5-48cf3adb3a99"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="047230d5-a306-4998-a823-71189475233b">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="932788a4-784a-4b7c-84dc-6bccd4c355de">
+      <blockPath>MPPTTestEnviroment/powergui/EquivalentModel1/State-Space</blockPath>
+      <parameterName>BS_param</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="8ca88d44-29c2-4418-a30f-92e54d6900a2"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="c28ee28d-d506-4686-aa26-5f04b3bb408b">
+        <className>double</className>
+        <dimensions>4</dimensions>
+        <dimensions>5</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="0b559fc0-3c67-4602-a595-9a81c71d374a">
+      <blockPath>MPPTTestEnviroment/powergui/EquivalentModel1/State-Space</blockPath>
+      <parameterName>AS_param</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="d945375f-ed9b-442c-b14d-a6c2570df2ac"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="4c57892f-96e9-49cc-87fb-9e1ff167e3e6">
+        <className>double</className>
+        <dimensions>4</dimensions>
+        <dimensions>4</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="452c9062-ecb1-4ae6-b6ed-31eba81e6623">
+      <blockPath>MPPTTestEnviroment/MPPT Algorithms/FV/PWM Generator (5KHz)/Sawtooth Generator/Model/Constant2</blockPath>
+      <parameterName>Value</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="dc7d9bc7-79c8-4dd7-818b-b9a703cee099"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="e5e9a85f-48f6-4b5f-9bfe-7d722f95a70a">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="bd320055-1b89-4dec-a49f-1b4946f70e2c">
+      <blockPath>MPPTTestEnviroment/powergui/EquivalentModel1/State-Space</blockPath>
+      <parameterName>DS_param</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="252e0533-41ca-4d5e-910d-14342de38f77"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="c3ef034e-016d-4049-92ec-458e95663dc7">
+        <className>double</className>
+        <dimensions>6</dimensions>
+        <dimensions>5</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="8080fd0e-7039-402a-9688-e755ea9f6e41">
+      <blockPath>MPPTTestEnviroment/PV Array/IL ctrl/IL_module</blockPath>
+      <parameterName>Value</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="f48a21a9-4a32-4654-ae5c-e08a039a2df3"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="7507b6ef-5f6f-4522-9959-803838a15b7c">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="404911cc-59c0-4a77-ad73-c73a232e94dd">
+      <blockPath>MPPTTestEnviroment/powergui/EquivalentModel1/State-Space</blockPath>
+      <parameterName>X0_param</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="fcf19232-5983-4427-9e85-8494d7c1d01d"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="5246e64f-d989-48ed-bff6-54d2df782854">
+        <className>double</className>
+        <dimensions>4</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="fc63c0eb-db3b-4835-9c83-2c562860b47e">
+      <blockPath>MPPTTestEnviroment/PV Array/Diode Rsh/Rsh_array_5%Sref</blockPath>
+      <parameterName>Value</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="2da32263-1449-4dfd-87f0-1c8027deaa26"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="abf8dd89-25c8-433a-895f-a105995ddcc5">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="bcfb728c-a010-47f7-b298-ed4bc0752825">
+      <blockPath>MPPTTestEnviroment/PV Array/IL ctrl/Tref_K</blockPath>
+      <parameterName>Value</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="7937a8dc-2d5d-4ecc-bc6f-3c43d92d57e2"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="5711b91a-d795-46b6-bd0c-88242b3f2613">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="df4ea0be-93e6-4163-9404-2306b4fca9ce">
+      <blockPath>MPPTTestEnviroment/PV Array/IL ctrl/alpha_Isc</blockPath>
+      <parameterName>Gain</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="d9a489ad-ccc0-4ba6-abf3-0c8fc5d55513"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="99e6a87c-c1f1-4c92-9b16-fdc71cd31f86">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="263c1942-00b7-43ed-98cb-636d671e3219">
+      <blockPath>MPPTTestEnviroment/PV Array/Vdiode/Rs_array_</blockPath>
+      <parameterName>Value</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="1c204309-ed7e-4aef-8101-ba8bd76d3bd6"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="efe3e08e-cbd5-44de-a65d-faefef2d37ac">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="ff9a9ac1-e10b-4eed-9569-ff332fc14545">
+      <blockPath>MPPTTestEnviroment/PV Array/Diode Rsh/Tref_K1</blockPath>
+      <parameterName>Value</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="7937a8dc-2d5d-4ecc-bc6f-3c43d92d57e2"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="cb1a325b-3626-424b-8b76-05cab0162830">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="fa5f8dfa-d110-4b97-a433-00b986bd38b8">
+      <blockPath>MPPTTestEnviroment/PV Array/Diode Rsh/dEgdT</blockPath>
+      <parameterName>Gain</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="13fa4b76-69a8-4ffd-82fb-5a60cdf698f8"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="7d0d331f-5542-41b6-9281-b05f7973300f">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="82c8fe8d-3785-4364-96b1-579a7e4bdd4d">
+      <blockPath>MPPTTestEnviroment/PV Array/Diode Rsh/EgRef</blockPath>
+      <parameterName>Gain</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="394078e7-8c48-4e46-a008-6d5c5fd23f77"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="7bf32588-4466-446e-8895-62171673d739">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="546ea48a-6d25-43b9-ac35-12ba74cc7cb5">
+      <blockPath>MPPTTestEnviroment/PV Array/Diode Rsh/Subsystem/EgRef</blockPath>
+      <parameterName>Value</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="6b03d342-7107-4718-98f9-2970e51d454d"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="f129a5f8-beff-42ea-8b9e-0113f4ccf88f">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="14e3d581-14f9-49db-a665-8a66909562f4">
+      <blockPath>MPPTTestEnviroment/PV Array/Diode Rsh/Tref_K2</blockPath>
+      <parameterName>Value</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="7937a8dc-2d5d-4ecc-bc6f-3c43d92d57e2"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="6ce955eb-407c-4c68-87c1-210153245296">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="d5996e7f-7a50-48ef-8e25-2ff469b6c8bb">
+      <blockPath>MPPTTestEnviroment/PV Array/Diode Rsh/I0_array</blockPath>
+      <parameterName>Gain</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="b98ebca2-c8cf-4128-ab16-2608b76eb495"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="94ced500-e1b0-4486-b4ee-b3e2ff6bf139">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="eaefce23-e808-45b6-9ffd-b998d3451d9a">
+      <blockPath>MPPTTestEnviroment/PV Array/Diode Rsh/Subsystem/k1</blockPath>
+      <parameterName>Gain</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="d2c798b8-851e-42ff-ae69-b998f5d7c19d"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="364de287-10e9-41f7-9411-5a4b0bb82d93">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="2219062d-e346-4e5e-8ab5-fbba492e81c6">
+      <blockPath>MPPTTestEnviroment/PV Array/Diode Rsh/Rsh_array</blockPath>
+      <parameterName>Value</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="02ecbedf-6e24-4459-8f27-6e13aec242b1"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="301164ca-0d2f-4368-aea1-78b0cd996147">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="25e1c463-9edb-4044-87a6-2c713def20af">
+      <blockPath>MPPTTestEnviroment/PV Array/Diode Rsh/VT_ref_array</blockPath>
+      <parameterName>Gain</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="7115d925-448f-4474-bca8-14a77f982450"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="848abca3-2e2f-4a57-bf39-8562111b82f1">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="0f334074-04ae-4586-a5c6-f63049872fd1">
+      <blockPath>MPPTTestEnviroment/D1/Model/eee</blockPath>
+      <parameterName>Value</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="1fe27376-3144-463e-944d-35f637bae5ed"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="e5864102-80df-426b-9bb7-65441a80fd0a">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="3b019747-2a49-4160-a127-8948a89597c9">
+      <blockPath>MPPTTestEnviroment/MPPT Algorithms/FV/PWM Generator (5KHz)/D</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="d515a376-76a4-4782-a605-beb9fc8dfd99"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="17f6b3f4-bd26-4be2-a542-6833d170239e">
+      <blockPath>MPPTTestEnviroment/MPPT Algorithms/FV/PWM Generator (5KHz)/Sawtooth Generator/Model/Digital Clock</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="ba657c7a-ff6c-455e-83be-16d869ff2e54"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="97bd5788-17fb-470f-a6ea-a36c34779705">
+      <blockPath>MPPTTestEnviroment/MPPT Algorithms/FV/PWM Generator (5KHz)/Sawtooth Generator/Model/Constant2</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="ba657c7a-ff6c-455e-83be-16d869ff2e54"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="383fa22a-1861-4c6b-ab53-a32a943849d7">
+      <blockPath>MPPTTestEnviroment/PV Array/Diode Rsh/Unit Delay</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="09a156c2-a42c-4d1f-a9d0-ab524250e8c5"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="d515a376-76a4-4782-a605-beb9fc8dfd99">
+      <expression>Ts</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="7c8cb36c-a107-42c7-a2e1-d40787229483"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="3b019747-2a49-4160-a127-8948a89597c9"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="8538951b-94e4-47fd-97b9-b82efecdf28e"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="f5dcd580-0bd1-40b4-8289-f3166b56ddd9">
+      <expression>[ 45 25  ]</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="9e0c8dbc-e9b2-4598-86ba-95f2a4752fbd"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="f591c95a-7578-4e8e-bb53-68ddbd7d4ffc">
+      <expression>S.C</expression>
+      <fieldReferences type="slsa.mm.parametertuning.FieldReference" uuid="2b1c0a87-c044-49e9-8032-95ed9ef56d37"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="c67e6a13-5226-49ea-88f9-17e41b420354"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="8c9723b1-e4e9-4a00-846a-0168504722d1"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="756aafc5-3cd2-4e8f-b93e-9f40cb81534e">
+      <expression>5000</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="5d5d7e89-7e5b-4913-be14-9f5a0dbf3ac7"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="9b89be31-49a8-4c97-b25a-47d6673ce4b4">
+      <expression>Fsw</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="0377f05a-bb32-4f56-8a01-27e41fc9e963"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="d826fa70-2063-4ece-a7f5-1b062581060d"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="689880ce-23c2-46e2-a7a8-dce4c42ce4b2">
+      <expression>0</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="bbf9ff46-0e40-49b7-b697-82344bb4d9ba"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="cdc4258e-1e4e-442b-b771-a2607cc4c2ab"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="feaf0754-cf4b-4435-b10c-2c51884c03cf">
+      <expression>1e-5</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="def49beb-2056-40a0-ba14-45bcb94a84b6"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="3f31930a-9d68-4aa6-8ca3-e4ab8a5aa1ac">
+      <expression>block = gcb;
+[WantBlockChoice,Ts,sps] = powericon(&apos;SawtoothGeneratorInit&apos;,block,Phase,Freq,Ts);
+powericon(&apos;SetInternalModels&apos;,&apos;set&apos;,block,WantBlockChoice);</expression>
+      <isAssignable>false</isAssignable>
+      <ownerBlockPath>MPPTTestEnviroment/MPPT Algorithms/FV/PWM Generator (5KHz)/Sawtooth Generator</ownerBlockPath>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="81431c67-82c7-462e-8b75-20ab6983061e"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="78d062b5-fb6c-471e-9e4f-98a6571b32b5"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="4ccb20df-6409-4902-946a-ae69a7f27bf9"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="bf7ad291-fdaa-43f4-aad2-55f95e768f29"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="da89b5f2-3707-4619-a5c5-bf3dc83218f7">
+      <evaluationMayFail>true</evaluationMayFail>
+      <expression>-0.355</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="a9c5b67a-022d-488c-9105-6792bfa36113"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="daa39615-f12a-41e7-9745-c44a07979790">
+      <expression>sps.Freq</expression>
+      <fieldReferences type="slsa.mm.parametertuning.FieldReference" uuid="66c06bb2-c4bb-4372-bb09-93762dfe6dae"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="56c4c56d-9e50-40be-8a2f-734184e83a10"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="39fa0bb4-9310-4fa3-82ab-d1c8f83e0a01"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="09a156c2-a42c-4d1f-a9d0-ab524250e8c5">
+      <expression>Tsf</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="383fa22a-1861-4c6b-ab53-a32a943849d7"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="99df7827-0fdc-450a-9ed4-54410e67d164"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="c9ee82db-8a67-4efa-8531-fec0efd4bc95">
+      <expression>S  = GetDataForEquivalentModel(&apos;Discrete&apos;,gcbh);</expression>
+      <isAssignable>false</isAssignable>
+      <ownerBlockPath>MPPTTestEnviroment/powergui/EquivalentModel1</ownerBlockPath>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="872fbf48-33b6-4bb1-ba74-0fb78e415689"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="d9a489ad-ccc0-4ba6-abf3-0c8fc5d55513">
+      <expression>alpha_Isc</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="df4ea0be-93e6-4163-9404-2306b4fca9ce"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="85270b13-b934-4997-8b76-83a01ade33b2"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="d945375f-ed9b-442c-b14d-a6c2570df2ac">
+      <expression>S.A</expression>
+      <fieldReferences type="slsa.mm.parametertuning.FieldReference" uuid="ae07b52c-9d8f-416b-bbaa-f3508a77b6df"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="0b559fc0-3c67-4602-a595-9a81c71d374a"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="8c9723b1-e4e9-4a00-846a-0168504722d1"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="0c5a30d6-934c-431f-8a9e-96b9455041e4">
+      <evaluationMayFail>true</evaluationMayFail>
+      <expression>7.61</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="b73b59e1-fb28-4c3e-b37c-e8519cce51cc"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="8ca88d44-29c2-4418-a30f-92e54d6900a2">
+      <expression>S.B</expression>
+      <fieldReferences type="slsa.mm.parametertuning.FieldReference" uuid="44e68d71-4761-4a3d-b23f-41ca7be4f16f"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="932788a4-784a-4b7c-84dc-6bccd4c355de"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="8c9723b1-e4e9-4a00-846a-0168504722d1"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="252e0533-41ca-4d5e-910d-14342de38f77">
+      <expression>S.D</expression>
+      <fieldReferences type="slsa.mm.parametertuning.FieldReference" uuid="cca46329-acad-4308-8c1d-98df5ee07781"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="bd320055-1b89-4dec-a49f-1b4946f70e2c"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="8c9723b1-e4e9-4a00-846a-0168504722d1"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="fcf19232-5983-4427-9e85-8494d7c1d01d">
+      <expression>S.x0</expression>
+      <fieldReferences type="slsa.mm.parametertuning.FieldReference" uuid="1a5737d3-daf4-4904-815e-b0fa7d3656b6"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="404911cc-59c0-4a77-ad73-c73a232e94dd"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="8c9723b1-e4e9-4a00-846a-0168504722d1"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="00ea62bb-afc6-45cc-88e5-48cf3adb3a99">
+      <expression>sps.Delay</expression>
+      <fieldReferences type="slsa.mm.parametertuning.FieldReference" uuid="392de90e-fdcc-4abe-ae53-4a73fcbd4da1"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="2bb6e6d1-a437-4282-a4a7-2ad1cd0a7897"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="39fa0bb4-9310-4fa3-82ab-d1c8f83e0a01"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="1c204309-ed7e-4aef-8101-ba8bd76d3bd6">
+      <expression>Rs*Nser/Npar</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="263c1942-00b7-43ed-98cb-636d671e3219"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="fb6f6c2f-ddad-4d21-8fb0-ae0e0ce48021"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="121ce578-d791-49b1-aca8-148f07f287a8"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="d832fd14-0f34-4d4b-a8a6-bee7dfe5293f"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="dc7d9bc7-79c8-4dd7-818b-b9a703cee099">
+      <expression>sps.Period</expression>
+      <fieldReferences type="slsa.mm.parametertuning.FieldReference" uuid="22dd9359-156e-44fd-a02c-e9a6c77b5a5f"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="452c9062-ecb1-4ae6-b6ed-31eba81e6623"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="39fa0bb4-9310-4fa3-82ab-d1c8f83e0a01"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="f8b98c6b-1f71-4048-b205-79759ff86b22">
+      <expression>1</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="ef198696-1249-4b58-ab33-622f0bc853c4"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="8f5bf79e-a215-4572-aa42-1cdbbe3c95ef"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="32722d53-53e8-4207-b07b-11990841a0e3"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="afabb957-e790-4140-9138-dfda34d70134">
+      <expression>2</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="4d0ae814-d926-400b-b746-30e326e9019f"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="e099c868-cc85-42fa-a7a0-7bb7cf9db8c4">
+      <expression>[ 800 ]</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="99997472-bafa-4a71-8052-4aaa4d1c0d0b"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="f7aac405-3296-445c-8341-59d2fb0b77e2">
+      <evaluationMayFail>true</evaluationMayFail>
+      <expression>200.143</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="baed21a3-7915-45f9-a1d0-a9b1360d1ee1"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="6c495e2e-ac9f-4af9-814c-97e52c20844c">
+      <evaluationMayFail>true</evaluationMayFail>
+      <expression>54</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="167c7bb2-312b-4850-80bf-895f16fb5899"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="c143d71b-f188-4e8e-9793-164a1617a2f0">
+      <evaluationMayFail>true</evaluationMayFail>
+      <expression>32.9</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="893840c1-39d6-47c0-b7d0-c79570b22afd"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="6b03d342-7107-4718-98f9-2970e51d454d">
+      <expression>EgRef/(k1*Tref_K)</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="546ea48a-6d25-43b9-ac35-12ba74cc7cb5"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="f76c5185-4dc7-4f44-9b6b-e1bd121227be"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="17c318aa-1616-4005-9511-62594e279d66"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="856cd5a2-db0a-4cc3-b3d5-b015d8fd7706"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="6b40d324-b7c2-47d6-afbe-afcb4081c58d">
+      <evaluationMayFail>true</evaluationMayFail>
+      <expression>150.6844</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="7fdafcf8-eb2e-4b46-aacc-bbbe313f09c0"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="6bfed4e2-0486-47c7-b947-e97c128cfb0a">
+      <evaluationMayFail>true</evaluationMayFail>
+      <expression>8.2288</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="1985a9a2-bff1-474f-8a6f-79a0992927fa"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="ab509516-d2a3-48c7-94aa-d900294b2f40">
+      <evaluationMayFail>true</evaluationMayFail>
+      <expression>8.21</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="4028b1b2-1513-4737-96fd-1ecc0a21024d"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="726c5231-e1f4-46ab-b420-4de91d434970">
+      <evaluationMayFail>true</evaluationMayFail>
+      <expression>26.3</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="d40dd911-a7b8-4157-9a68-4d8b036e3ee0"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="c44d6dfa-7f99-4a7b-a1cd-f2718939d0d8">
+      <evaluationMayFail>true</evaluationMayFail>
+      <expression>0.06</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="03cb94a0-0dcb-4a67-b8c6-26f83e3f173f"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="b98ebca2-c8cf-4128-ab16-2608b76eb495">
+      <expression>I0*Npar</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="d5996e7f-7a50-48ef-8e25-2ff469b6c8bb"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="fb6f6c2f-ddad-4d21-8fb0-ae0e0ce48021"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="c37c1ef4-1810-4e50-aed4-e67a8ecb3709"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="394078e7-8c48-4e46-a008-6d5c5fd23f77">
+      <expression>EgRef</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="82c8fe8d-3785-4364-96b1-579a7e4bdd4d"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="f76c5185-4dc7-4f44-9b6b-e1bd121227be"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="7937a8dc-2d5d-4ecc-bc6f-3c43d92d57e2">
+      <expression>Tref_K</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="14e3d581-14f9-49db-a665-8a66909562f4"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="bcfb728c-a010-47f7-b298-ed4bc0752825"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="ff9a9ac1-e10b-4eed-9569-ff332fc14545"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="17c318aa-1616-4005-9511-62594e279d66"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="399057ac-f1e2-404d-8546-165a9d50f646">
+      <expression>-0.11679</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="886f2265-9a11-4cb1-a409-1912097a8229"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="90438d9c-e4fc-457b-9c15-c22d2bc52638">
+      <expression>0.004926</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="8da5ba81-e0fd-4507-b136-7583c5f404d0"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="f48a21a9-4a32-4654-ae5c-e08a039a2df3">
+      <expression>IL</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="8080fd0e-7039-402a-9688-e755ea9f6e41"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="b8eb98bc-c68d-437a-accb-8e6a9a2242d2"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="74085ec3-f470-4073-b3c5-084599da2562">
+      <evaluationMayFail>true</evaluationMayFail>
+      <expression>2.3234e-10</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="49bb07f3-30b8-48aa-8442-7d61b2fcce9f"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="13fa4b76-69a8-4ffd-82fb-5a60cdf698f8">
+      <expression>dEgdT</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="fa5f8dfa-d110-4b97-a433-00b986bd38b8"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="d990196f-b15e-4abc-bbd4-a97480a5abe0"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="d3d8a07b-8d97-42aa-ae05-8ace3db4e9ee">
+      <evaluationMayFail>true</evaluationMayFail>
+      <expression>0.97734</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="4e520b0c-d35f-4ec9-9f5f-b039065010c5"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="d4603d2f-4895-4753-bd23-28f625b86836">
+      <evaluationMayFail>true</evaluationMayFail>
+      <expression>0.34484</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="29df8685-75bf-4604-8b13-7b2eba890beb"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb">
+      <expression>Block = gcb;
+[k,k1,q,Tref_C,Tref_K,EgRef,dEgdT,Rsh_array5pc,VT_ref,Tsf,Tf,VIdiodePV,WantBlockChoice] = PVArrayInit(Block, Nser, Npar, Ncell, Rsh, nI, Tfilter, Voc, I0);
+powericon(&apos;SetInternalModels&apos;,&apos;set&apos;,Block,WantBlockChoice);
+sps_rtmsupport(&apos;parametereditingmodes&apos;,Block, [3 6 7 23]);
+</expression>
+      <isAssignable>false</isAssignable>
+      <ownerBlockPath>MPPTTestEnviroment/PV Array</ownerBlockPath>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="72dfd82b-941b-4ec0-8d62-60eaffd28eb5"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="62bb72ad-617f-4016-8a98-38d06116c767"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="e2a03e56-8acc-4b40-bd06-fccf1b774580"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="80e3230a-6211-42ac-90b3-6fe536a6e3e3"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="763dae2c-a6e0-4e86-b892-6d6ba2b0dbb0"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="862d3f2e-f683-4f48-b58a-07aedf8b0966"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="45a88a8c-ed35-4249-856c-c368d0a36bf0"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="93fa233e-528c-40eb-ba94-60e571b300eb"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="d3891a9c-0898-4601-a841-d20d660d81fa"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="c37c1ef4-1810-4e50-aed4-e67a8ecb3709"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="c3c929b4-4f84-410c-92e1-8d0ab94fa26f"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="c2b723b8-9d6a-4493-a8a8-37bbd314e093"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="02346367-220a-40be-85b4-bb85cf9bb51c"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="d832fd14-0f34-4d4b-a8a6-bee7dfe5293f"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="5839b100-7e57-4e92-934b-a00f9f0c227c"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="c5282125-bcf2-484b-8dc1-9cd04a0426a4"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="85270b13-b934-4997-8b76-83a01ade33b2"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="b538b15b-1564-4ec9-833c-dfe0901443f1"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="ccea7227-0aef-4e44-8e87-562a843d1cc9"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="d7ddc139-b39c-45dd-bc7d-b0eb562abc37"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="57630621-4c93-474d-be0a-d8c74bfc8256"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="6ba87a5f-adf5-444e-8dbf-4adf7180e6dc"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="cf467494-40fd-4be5-9540-82b941a2c89f"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="3c7de123-4bc3-46b0-a40e-e1268767ad81"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="dff84276-c80b-40f1-b762-2940a3929cdd"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="fb6f6c2f-ddad-4d21-8fb0-ae0e0ce48021"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="eef01724-e89b-4fa7-b500-e2dda5cb7dff"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="eecdb97f-a439-4e9a-a6a2-48b14bc27c30"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="121ce578-d791-49b1-aca8-148f07f287a8"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="b8eb98bc-c68d-437a-accb-8e6a9a2242d2"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="66f43189-d835-4514-9883-fc758589f29a"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="016d8bda-6c08-42c1-9e09-7f1afe490054"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="ba372b35-879a-4624-9adc-95a0f9f0737d"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="b1e87494-14d6-4276-b382-3441cdaabca1"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="46df2d68-6741-4564-b7fc-194246d56cef">
+      <evaluationMayFail>true</evaluationMayFail>
+      <expression>313.3991</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="60ea0e4a-2c1e-430f-bcec-26be3d464ccf"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="6ed735b7-5d2f-4025-9168-eb6ecc3d7bc2">
+      <expression>1e-6</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="24d0e11e-5d8d-42bb-8e1d-9068498639b0"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="3d9c2d7a-6027-42a3-b3a7-00a2594aaccd">
+      <evaluationMayFail>true</evaluationMayFail>
+      <expression>5e-5</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="5d858534-9a64-4870-9326-ea0b7dd849a0"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="d2c798b8-851e-42ff-ae69-b998f5d7c19d">
+      <expression>k1</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="eaefce23-e808-45b6-9ffd-b998d3451d9a"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="856cd5a2-db0a-4cc3-b3d5-b015d8fd7706"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="02ecbedf-6e24-4459-8f27-6e13aec242b1">
+      <expression>Rsh*Nser/Npar</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="2219062d-e346-4e5e-8ab5-fbba492e81c6"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="b538b15b-1564-4ec9-833c-dfe0901443f1"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="fb6f6c2f-ddad-4d21-8fb0-ae0e0ce48021"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="121ce578-d791-49b1-aca8-148f07f287a8"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="2da32263-1449-4dfd-87f0-1c8027deaa26">
+      <expression>Rsh_array5pc</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="fc63c0eb-db3b-4835-9c83-2c562860b47e"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="2b6dbb53-ac01-421f-96ea-787cf50dc55e"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="7115d925-448f-4474-bca8-14a77f982450">
+      <expression>VT_ref*Nser</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="25e1c463-9edb-4044-87a6-2c713def20af"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="121ce578-d791-49b1-aca8-148f07f287a8"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="027d902e-42e0-4e68-a7aa-32065c1fa907"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="62cc198d-9fb5-4bef-b4cc-e53e37ba0148">
+      <expression>0.8</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="64c179a9-9f44-4252-accc-439f73c74d7e"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="1fe27376-3144-463e-944d-35f637bae5ed">
+      <expression>Vf</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="0f334074-04ae-4586-a5c6-f63049872fd1"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="c923dd1e-5aee-4a1e-b7f3-a2138a67aa9a"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="ba657c7a-ff6c-455e-83be-16d869ff2e54">
+      <expression>Ts</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="17f6b3f4-bd26-4be2-a542-6833d170239e"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="97bd5788-17fb-470f-a6ea-a36c34779705"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="d6a89531-72be-4965-bada-56b4f1f73aae"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="4ccb20df-6409-4902-946a-ae69a7f27bf9"/>
+    </expressions>
+    <fieldReferences type="slsa.mm.parametertuning.FieldReference" uuid="ae07b52c-9d8f-416b-bbaa-f3508a77b6df">
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="d945375f-ed9b-442c-b14d-a6c2570df2ac"/>
+      <fieldName>S.A</fieldName>
+      <variable type="slsa.mm.parametertuning.Variable" uuid="8c9723b1-e4e9-4a00-846a-0168504722d1"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.parametertuning.FieldReference" uuid="66c06bb2-c4bb-4372-bb09-93762dfe6dae">
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="daa39615-f12a-41e7-9745-c44a07979790"/>
+      <fieldName>sps.Freq</fieldName>
+      <variable type="slsa.mm.parametertuning.Variable" uuid="39fa0bb4-9310-4fa3-82ab-d1c8f83e0a01"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.parametertuning.FieldReference" uuid="cca46329-acad-4308-8c1d-98df5ee07781">
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="252e0533-41ca-4d5e-910d-14342de38f77"/>
+      <fieldName>S.D</fieldName>
+      <variable type="slsa.mm.parametertuning.Variable" uuid="8c9723b1-e4e9-4a00-846a-0168504722d1"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.parametertuning.FieldReference" uuid="44e68d71-4761-4a3d-b23f-41ca7be4f16f">
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="8ca88d44-29c2-4418-a30f-92e54d6900a2"/>
+      <fieldName>S.B</fieldName>
+      <variable type="slsa.mm.parametertuning.Variable" uuid="8c9723b1-e4e9-4a00-846a-0168504722d1"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.parametertuning.FieldReference" uuid="2b1c0a87-c044-49e9-8032-95ed9ef56d37">
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="f591c95a-7578-4e8e-bb53-68ddbd7d4ffc"/>
+      <fieldName>S.C</fieldName>
+      <variable type="slsa.mm.parametertuning.Variable" uuid="8c9723b1-e4e9-4a00-846a-0168504722d1"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.parametertuning.FieldReference" uuid="22dd9359-156e-44fd-a02c-e9a6c77b5a5f">
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="dc7d9bc7-79c8-4dd7-818b-b9a703cee099"/>
+      <fieldName>sps.Period</fieldName>
+      <variable type="slsa.mm.parametertuning.Variable" uuid="39fa0bb4-9310-4fa3-82ab-d1c8f83e0a01"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.parametertuning.FieldReference" uuid="1a5737d3-daf4-4904-815e-b0fa7d3656b6">
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="fcf19232-5983-4427-9e85-8494d7c1d01d"/>
+      <fieldName>S.x0</fieldName>
+      <variable type="slsa.mm.parametertuning.Variable" uuid="8c9723b1-e4e9-4a00-846a-0168504722d1"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.parametertuning.FieldReference" uuid="392de90e-fdcc-4abe-ae53-4a73fcbd4da1">
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="00ea62bb-afc6-45cc-88e5-48cf3adb3a99"/>
+      <fieldName>sps.Delay</fieldName>
+      <variable type="slsa.mm.parametertuning.Variable" uuid="39fa0bb4-9310-4fa3-82ab-d1c8f83e0a01"/>
+    </fieldReferences>
+    <name>MPPTTestEnviroment</name>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="5d858534-9a64-4870-9326-ea0b7dd849a0">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="c2b723b8-9d6a-4493-a8a8-37bbd314e093"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="3d9c2d7a-6027-42a3-b3a7-00a2594aaccd"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="5d5d7e89-7e5b-4913-be14-9f5a0dbf3ac7">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="d826fa70-2063-4ece-a7f5-1b062581060d"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="756aafc5-3cd2-4e8f-b93e-9f40cb81534e"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="bbf9ff46-0e40-49b7-b697-82344bb4d9ba">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="bf7ad291-fdaa-43f4-aad2-55f95e768f29"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="689880ce-23c2-46e2-a7a8-dce4c42ce4b2"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="03cb94a0-0dcb-4a67-b8c6-26f83e3f173f">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="eef01724-e89b-4fa7-b500-e2dda5cb7dff"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="c44d6dfa-7f99-4a7b-a1cd-f2718939d0d8"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="0377f05a-bb32-4f56-8a01-27e41fc9e963">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="78d062b5-fb6c-471e-9e4f-98a6571b32b5"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9b89be31-49a8-4c97-b25a-47d6673ce4b4"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="9e0c8dbc-e9b2-4598-86ba-95f2a4752fbd">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="ba372b35-879a-4624-9adc-95a0f9f0737d"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="f5dcd580-0bd1-40b4-8289-f3166b56ddd9"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="def49beb-2056-40a0-ba14-45bcb94a84b6">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="8538951b-94e4-47fd-97b9-b82efecdf28e"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="feaf0754-cf4b-4435-b10c-2c51884c03cf"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="7c8cb36c-a107-42c7-a2e1-d40787229483">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="4ccb20df-6409-4902-946a-ae69a7f27bf9"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="d515a376-76a4-4782-a605-beb9fc8dfd99"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="81431c67-82c7-462e-8b75-20ab6983061e">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="39fa0bb4-9310-4fa3-82ab-d1c8f83e0a01"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="3f31930a-9d68-4aa6-8ca3-e4ab8a5aa1ac"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="8f5bf79e-a215-4572-aa42-1cdbbe3c95ef">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="fb6f6c2f-ddad-4d21-8fb0-ae0e0ce48021"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="f8b98c6b-1f71-4048-b205-79759ff86b22"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="872fbf48-33b6-4bb1-ba74-0fb78e415689">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="8c9723b1-e4e9-4a00-846a-0168504722d1"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="c9ee82db-8a67-4efa-8531-fec0efd4bc95"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="ef198696-1249-4b58-ab33-622f0bc853c4">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="121ce578-d791-49b1-aca8-148f07f287a8"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="f8b98c6b-1f71-4048-b205-79759ff86b22"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="cdc4258e-1e4e-442b-b771-a2607cc4c2ab">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="c3c929b4-4f84-410c-92e1-8d0ab94fa26f"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="689880ce-23c2-46e2-a7a8-dce4c42ce4b2"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="8da5ba81-e0fd-4507-b136-7583c5f404d0">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="85270b13-b934-4997-8b76-83a01ade33b2"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="90438d9c-e4fc-457b-9c15-c22d2bc52638"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="4d0ae814-d926-400b-b746-30e326e9019f">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="93fa233e-528c-40eb-ba94-60e571b300eb"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="afabb957-e790-4140-9138-dfda34d70134"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="1985a9a2-bff1-474f-8a6f-79a0992927fa">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="b8eb98bc-c68d-437a-accb-8e6a9a2242d2"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="6bfed4e2-0486-47c7-b947-e97c128cfb0a"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="99997472-bafa-4a71-8052-4aaa4d1c0d0b">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="d3891a9c-0898-4601-a841-d20d660d81fa"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="e099c868-cc85-42fa-a7a0-7bb7cf9db8c4"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="baed21a3-7915-45f9-a1d0-a9b1360d1ee1">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="6ba87a5f-adf5-444e-8dbf-4adf7180e6dc"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="f7aac405-3296-445c-8341-59d2fb0b77e2"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="167c7bb2-312b-4850-80bf-895f16fb5899">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="cf467494-40fd-4be5-9540-82b941a2c89f"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="6c495e2e-ac9f-4af9-814c-97e52c20844c"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="49bb07f3-30b8-48aa-8442-7d61b2fcce9f">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="c37c1ef4-1810-4e50-aed4-e67a8ecb3709"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="74085ec3-f470-4073-b3c5-084599da2562"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="893840c1-39d6-47c0-b7d0-c79570b22afd">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="c5282125-bcf2-484b-8dc1-9cd04a0426a4"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="c143d71b-f188-4e8e-9793-164a1617a2f0"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="80e3230a-6211-42ac-90b3-6fe536a6e3e3">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="f76c5185-4dc7-4f44-9b6b-e1bd121227be"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="4028b1b2-1513-4737-96fd-1ecc0a21024d">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="02346367-220a-40be-85b4-bb85cf9bb51c"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="ab509516-d2a3-48c7-94aa-d900294b2f40"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="d40dd911-a7b8-4157-9a68-4d8b036e3ee0">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="ccea7227-0aef-4e44-8e87-562a843d1cc9"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="726c5231-e1f4-46ab-b420-4de91d434970"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="b73b59e1-fb28-4c3e-b37c-e8519cce51cc">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="eecdb97f-a439-4e9a-a6a2-48b14bc27c30"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="0c5a30d6-934c-431f-8a9e-96b9455041e4"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="29df8685-75bf-4604-8b13-7b2eba890beb">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="d832fd14-0f34-4d4b-a8a6-bee7dfe5293f"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="d4603d2f-4895-4753-bd23-28f625b86836"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="a9c5b67a-022d-488c-9105-6792bfa36113">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="b1e87494-14d6-4276-b382-3441cdaabca1"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="da89b5f2-3707-4619-a5c5-bf3dc83218f7"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="886f2265-9a11-4cb1-a409-1912097a8229">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="57630621-4c93-474d-be0a-d8c74bfc8256"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="399057ac-f1e2-404d-8546-165a9d50f646"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="4e520b0c-d35f-4ec9-9f5f-b039065010c5">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="d7ddc139-b39c-45dd-bc7d-b0eb562abc37"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="d3d8a07b-8d97-42aa-ae05-8ace3db4e9ee"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="7fdafcf8-eb2e-4b46-aacc-bbbe313f09c0">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="b538b15b-1564-4ec9-833c-dfe0901443f1"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="6b40d324-b7c2-47d6-afbe-afcb4081c58d"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="60ea0e4a-2c1e-430f-bcec-26be3d464ccf">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="66f43189-d835-4514-9883-fc758589f29a"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="46df2d68-6741-4564-b7fc-194246d56cef"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="72dfd82b-941b-4ec0-8d62-60eaffd28eb5">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="027d902e-42e0-4e68-a7aa-32065c1fa907"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="32722d53-53e8-4207-b07b-11990841a0e3">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="3c7de123-4bc3-46b0-a40e-e1268767ad81"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="f8b98c6b-1f71-4048-b205-79759ff86b22"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="64c179a9-9f44-4252-accc-439f73c74d7e">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="c923dd1e-5aee-4a1e-b7f3-a2138a67aa9a"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="62cc198d-9fb5-4bef-b4cc-e53e37ba0148"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="24d0e11e-5d8d-42bb-8e1d-9068498639b0">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="dff84276-c80b-40f1-b762-2940a3929cdd"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="6ed735b7-5d2f-4025-9168-eb6ecc3d7bc2"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="62bb72ad-617f-4016-8a98-38d06116c767">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="d990196f-b15e-4abc-bbd4-a97480a5abe0"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="e2a03e56-8acc-4b40-bd06-fccf1b774580">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="17c318aa-1616-4005-9511-62594e279d66"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="862d3f2e-f683-4f48-b58a-07aedf8b0966">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="856cd5a2-db0a-4cc3-b3d5-b015d8fd7706"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="763dae2c-a6e0-4e86-b892-6d6ba2b0dbb0">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="2b6dbb53-ac01-421f-96ea-787cf50dc55e"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="45a88a8c-ed35-4249-856c-c368d0a36bf0">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="99df7827-0fdc-450a-9ed4-54410e67d164"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+    </variableDefinitions>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="b8eb98bc-c68d-437a-accb-8e6a9a2242d2">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="1985a9a2-bff1-474f-8a6f-79a0992927fa"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="f48a21a9-4a32-4654-ae5c-e08a039a2df3"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+      <name>IL</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="78d062b5-fb6c-471e-9e4f-98a6571b32b5">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="0377f05a-bb32-4f56-8a01-27e41fc9e963"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="3f31930a-9d68-4aa6-8ca3-e4ab8a5aa1ac"/>
+      <name>Freq</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="d6235997-c2af-4055-b8fe-89212dcd8536"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="d832fd14-0f34-4d4b-a8a6-bee7dfe5293f">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="29df8685-75bf-4604-8b13-7b2eba890beb"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="1c204309-ed7e-4aef-8101-ba8bd76d3bd6"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+      <name>Rs</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="5839b100-7e57-4e92-934b-a00f9f0c227c">
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+      <name>PlotWhenSelected</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="d826fa70-2063-4ece-a7f5-1b062581060d">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="5d5d7e89-7e5b-4913-be14-9f5a0dbf3ac7"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="9b89be31-49a8-4c97-b25a-47d6673ce4b4"/>
+      <name>Fsw</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="a8fc77ac-09f4-4e4d-8407-108dc8bb99fe"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="bf7ad291-fdaa-43f4-aad2-55f95e768f29">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="bbf9ff46-0e40-49b7-b697-82344bb4d9ba"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="3f31930a-9d68-4aa6-8ca3-e4ab8a5aa1ac"/>
+      <name>Phase</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="d6235997-c2af-4055-b8fe-89212dcd8536"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="856cd5a2-db0a-4cc3-b3d5-b015d8fd7706">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="862d3f2e-f683-4f48-b58a-07aedf8b0966"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="d2c798b8-851e-42ff-ae69-b998f5d7c19d"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="6b03d342-7107-4718-98f9-2970e51d454d"/>
+      <name>k1</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="85270b13-b934-4997-8b76-83a01ade33b2">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="8da5ba81-e0fd-4507-b136-7583c5f404d0"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="d9a489ad-ccc0-4ba6-abf3-0c8fc5d55513"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+      <name>alpha_Isc</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="c5282125-bcf2-484b-8dc1-9cd04a0426a4">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="893840c1-39d6-47c0-b7d0-c79570b22afd"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+      <name>Voc</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="8538951b-94e4-47fd-97b9-b82efecdf28e">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="def49beb-2056-40a0-ba14-45bcb94a84b6"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="d515a376-76a4-4782-a605-beb9fc8dfd99"/>
+      <name>Ts</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="a8fc77ac-09f4-4e4d-8407-108dc8bb99fe"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="ccea7227-0aef-4e44-8e87-562a843d1cc9">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="d40dd911-a7b8-4157-9a68-4d8b036e3ee0"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+      <name>Vm</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="4ccb20df-6409-4902-946a-ae69a7f27bf9">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="7c8cb36c-a107-42c7-a2e1-d40787229483"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="ba657c7a-ff6c-455e-83be-16d869ff2e54"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="3f31930a-9d68-4aa6-8ca3-e4ab8a5aa1ac"/>
+      <name>Ts</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="d6235997-c2af-4055-b8fe-89212dcd8536"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="8c9723b1-e4e9-4a00-846a-0168504722d1">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="872fbf48-33b6-4bb1-ba74-0fb78e415689"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="fcf19232-5983-4427-9e85-8494d7c1d01d"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="252e0533-41ca-4d5e-910d-14342de38f77"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="f591c95a-7578-4e8e-bb53-68ddbd7d4ffc"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="8ca88d44-29c2-4418-a30f-92e54d6900a2"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="d945375f-ed9b-442c-b14d-a6c2570df2ac"/>
+      <fieldReferences type="slsa.mm.parametertuning.FieldReference" uuid="ae07b52c-9d8f-416b-bbaa-f3508a77b6df"/>
+      <fieldReferences type="slsa.mm.parametertuning.FieldReference" uuid="cca46329-acad-4308-8c1d-98df5ee07781"/>
+      <fieldReferences type="slsa.mm.parametertuning.FieldReference" uuid="44e68d71-4761-4a3d-b23f-41ca7be4f16f"/>
+      <fieldReferences type="slsa.mm.parametertuning.FieldReference" uuid="2b1c0a87-c044-49e9-8032-95ed9ef56d37"/>
+      <fieldReferences type="slsa.mm.parametertuning.FieldReference" uuid="1a5737d3-daf4-4904-815e-b0fa7d3656b6"/>
+      <name>S</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="b77f75eb-e7f7-4eb9-926d-cbdbde64074e"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="39fa0bb4-9310-4fa3-82ab-d1c8f83e0a01">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="81431c67-82c7-462e-8b75-20ab6983061e"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="dc7d9bc7-79c8-4dd7-818b-b9a703cee099"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="00ea62bb-afc6-45cc-88e5-48cf3adb3a99"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="daa39615-f12a-41e7-9745-c44a07979790"/>
+      <fieldReferences type="slsa.mm.parametertuning.FieldReference" uuid="66c06bb2-c4bb-4372-bb09-93762dfe6dae"/>
+      <fieldReferences type="slsa.mm.parametertuning.FieldReference" uuid="392de90e-fdcc-4abe-ae53-4a73fcbd4da1"/>
+      <fieldReferences type="slsa.mm.parametertuning.FieldReference" uuid="22dd9359-156e-44fd-a02c-e9a6c77b5a5f"/>
+      <name>sps</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="d6235997-c2af-4055-b8fe-89212dcd8536"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="fb6f6c2f-ddad-4d21-8fb0-ae0e0ce48021">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="8f5bf79e-a215-4572-aa42-1cdbbe3c95ef"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="02ecbedf-6e24-4459-8f27-6e13aec242b1"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="b98ebca2-c8cf-4128-ab16-2608b76eb495"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="1c204309-ed7e-4aef-8101-ba8bd76d3bd6"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+      <name>Npar</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="121ce578-d791-49b1-aca8-148f07f287a8">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="ef198696-1249-4b58-ab33-622f0bc853c4"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="7115d925-448f-4474-bca8-14a77f982450"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="02ecbedf-6e24-4459-8f27-6e13aec242b1"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="1c204309-ed7e-4aef-8101-ba8bd76d3bd6"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+      <name>Nser</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="d3891a9c-0898-4601-a841-d20d660d81fa">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="99997472-bafa-4a71-8052-4aaa4d1c0d0b"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+      <name>S_vec</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="93fa233e-528c-40eb-ba94-60e571b300eb">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="4d0ae814-d926-400b-b746-30e326e9019f"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+      <name>PlotType</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="ba372b35-879a-4624-9adc-95a0f9f0737d">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="9e0c8dbc-e9b2-4598-86ba-95f2a4752fbd"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+      <name>Temp_C_vec</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="016d8bda-6c08-42c1-9e09-7f1afe490054">
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+      <name>ModuleName</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="2b6dbb53-ac01-421f-96ea-787cf50dc55e">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="763dae2c-a6e0-4e86-b892-6d6ba2b0dbb0"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="2da32263-1449-4dfd-87f0-1c8027deaa26"/>
+      <name>Rsh_array5pc</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="6ba87a5f-adf5-444e-8dbf-4adf7180e6dc">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="baed21a3-7915-45f9-a1d0-a9b1360d1ee1"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+      <name>Pm</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="cf467494-40fd-4be5-9540-82b941a2c89f">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="167c7bb2-312b-4850-80bf-895f16fb5899"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+      <name>Ncell</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="027d902e-42e0-4e68-a7aa-32065c1fa907">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="72dfd82b-941b-4ec0-8d62-60eaffd28eb5"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="7115d925-448f-4474-bca8-14a77f982450"/>
+      <name>VT_ref</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="c2b723b8-9d6a-4493-a8a8-37bbd314e093">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="5d858534-9a64-4870-9326-ea0b7dd849a0"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+      <name>Tfilter</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="02346367-220a-40be-85b4-bb85cf9bb51c">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="4028b1b2-1513-4737-96fd-1ecc0a21024d"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+      <name>Isc</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="eef01724-e89b-4fa7-b500-e2dda5cb7dff">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="03cb94a0-0dcb-4a67-b8c6-26f83e3f173f"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+      <name>alpha_Isc_pc</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="eecdb97f-a439-4e9a-a6a2-48b14bc27c30">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="b73b59e1-fb28-4c3e-b37c-e8519cce51cc"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+      <name>Im</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="b1e87494-14d6-4276-b382-3441cdaabca1">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="a9c5b67a-022d-488c-9105-6792bfa36113"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+      <name>beta_Voc_pc</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="17c318aa-1616-4005-9511-62594e279d66">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="e2a03e56-8acc-4b40-bd06-fccf1b774580"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="6b03d342-7107-4718-98f9-2970e51d454d"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="7937a8dc-2d5d-4ecc-bc6f-3c43d92d57e2"/>
+      <name>Tref_K</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="d7ddc139-b39c-45dd-bc7d-b0eb562abc37">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="4e520b0c-d35f-4ec9-9f5f-b039065010c5"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+      <name>nI</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="57630621-4c93-474d-be0a-d8c74bfc8256">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="886f2265-9a11-4cb1-a409-1912097a8229"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+      <name>beta_Voc</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="c3c929b4-4f84-410c-92e1-8d0ab94fa26f">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="cdc4258e-1e4e-442b-b771-a2607cc4c2ab"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+      <name>RobustModel</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="c37c1ef4-1810-4e50-aed4-e67a8ecb3709">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="49bb07f3-30b8-48aa-8442-7d61b2fcce9f"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="b98ebca2-c8cf-4128-ab16-2608b76eb495"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+      <name>I0</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="b538b15b-1564-4ec9-833c-dfe0901443f1">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="7fdafcf8-eb2e-4b46-aacc-bbbe313f09c0"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="02ecbedf-6e24-4459-8f27-6e13aec242b1"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+      <name>Rsh</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="66f43189-d835-4514-9883-fc758589f29a">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="60ea0e4a-2c1e-430f-bcec-26be3d464ccf"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+      <name>RobustCellTemperature</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="3c7de123-4bc3-46b0-a40e-e1268767ad81">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="32722d53-53e8-4207-b07b-11990841a0e3"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+      <name>BAL</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="dff84276-c80b-40f1-b762-2940a3929cdd">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="24d0e11e-5d8d-42bb-8e1d-9068498639b0"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="86db7ffc-5a1a-408f-a982-846d2d3189bb"/>
+      <name>Tc</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="99df7827-0fdc-450a-9ed4-54410e67d164">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="45a88a8c-ed35-4249-856c-c368d0a36bf0"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="09a156c2-a42c-4d1f-a9d0-ab524250e8c5"/>
+      <name>Tsf</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="d990196f-b15e-4abc-bbd4-a97480a5abe0">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="62bb72ad-617f-4016-8a98-38d06116c767"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="13fa4b76-69a8-4ffd-82fb-5a60cdf698f8"/>
+      <name>dEgdT</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="f76c5185-4dc7-4f44-9b6b-e1bd121227be">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="80e3230a-6211-42ac-90b3-6fe536a6e3e3"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="6b03d342-7107-4718-98f9-2970e51d454d"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="394078e7-8c48-4e46-a008-6d5c5fd23f77"/>
+      <name>EgRef</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="c923dd1e-5aee-4a1e-b7f3-a2138a67aa9a">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="64c179a9-9f44-4252-accc-439f73c74d7e"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="1fe27376-3144-463e-944d-35f637bae5ed"/>
+      <name>Vf</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="b0767ad7-1d0c-4639-8412-c255f9cee638"/>
+    </variables>
+    <workspaces type="slsa.mm.parametertuning.Workspace" uuid="b0767ad7-1d0c-4639-8412-c255f9cee638">
+      <name>MPPTTestEnviroment:381</name>
+      <type>MASK</type>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="c923dd1e-5aee-4a1e-b7f3-a2138a67aa9a"/>
+    </workspaces>
+    <workspaces type="slsa.mm.parametertuning.Workspace" uuid="18daa4ba-ad91-448c-bace-d05c6b588917">
+      <name>MPPTTestEnviroment:2</name>
+      <type>MASK</type>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="2b6dbb53-ac01-421f-96ea-787cf50dc55e"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="6ba87a5f-adf5-444e-8dbf-4adf7180e6dc"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="93fa233e-528c-40eb-ba94-60e571b300eb"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="d3891a9c-0898-4601-a841-d20d660d81fa"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="fb6f6c2f-ddad-4d21-8fb0-ae0e0ce48021"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="ba372b35-879a-4624-9adc-95a0f9f0737d"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="121ce578-d791-49b1-aca8-148f07f287a8"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="016d8bda-6c08-42c1-9e09-7f1afe490054"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="d832fd14-0f34-4d4b-a8a6-bee7dfe5293f"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="5839b100-7e57-4e92-934b-a00f9f0c227c"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="cf467494-40fd-4be5-9540-82b941a2c89f"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="856cd5a2-db0a-4cc3-b3d5-b015d8fd7706"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="85270b13-b934-4997-8b76-83a01ade33b2"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="c5282125-bcf2-484b-8dc1-9cd04a0426a4"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="027d902e-42e0-4e68-a7aa-32065c1fa907"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="c2b723b8-9d6a-4493-a8a8-37bbd314e093"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="02346367-220a-40be-85b4-bb85cf9bb51c"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="ccea7227-0aef-4e44-8e87-562a843d1cc9"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="eef01724-e89b-4fa7-b500-e2dda5cb7dff"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="eecdb97f-a439-4e9a-a6a2-48b14bc27c30"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="b1e87494-14d6-4276-b382-3441cdaabca1"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="17c318aa-1616-4005-9511-62594e279d66"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="d7ddc139-b39c-45dd-bc7d-b0eb562abc37"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="57630621-4c93-474d-be0a-d8c74bfc8256"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="b8eb98bc-c68d-437a-accb-8e6a9a2242d2"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="c3c929b4-4f84-410c-92e1-8d0ab94fa26f"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="c37c1ef4-1810-4e50-aed4-e67a8ecb3709"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="b538b15b-1564-4ec9-833c-dfe0901443f1"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="66f43189-d835-4514-9883-fc758589f29a"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="3c7de123-4bc3-46b0-a40e-e1268767ad81"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="dff84276-c80b-40f1-b762-2940a3929cdd"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="99df7827-0fdc-450a-9ed4-54410e67d164"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="d990196f-b15e-4abc-bbd4-a97480a5abe0"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="f76c5185-4dc7-4f44-9b6b-e1bd121227be"/>
+    </workspaces>
+    <workspaces type="slsa.mm.parametertuning.Workspace" uuid="a8fc77ac-09f4-4e4d-8407-108dc8bb99fe">
+      <name>MPPTTestEnviroment:552</name>
+      <type>MASK</type>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="d826fa70-2063-4ece-a7f5-1b062581060d"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="8538951b-94e4-47fd-97b9-b82efecdf28e"/>
+    </workspaces>
+    <workspaces type="slsa.mm.parametertuning.Workspace" uuid="d6235997-c2af-4055-b8fe-89212dcd8536">
+      <name>MPPTTestEnviroment:552:8</name>
+      <type>MASK</type>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="78d062b5-fb6c-471e-9e4f-98a6571b32b5"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="bf7ad291-fdaa-43f4-aad2-55f95e768f29"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="4ccb20df-6409-4902-946a-ae69a7f27bf9"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="39fa0bb4-9310-4fa3-82ab-d1c8f83e0a01"/>
+    </workspaces>
+    <workspaces type="slsa.mm.parametertuning.Workspace" uuid="b77f75eb-e7f7-4eb9-926d-cbdbde64074e">
+      <name>MPPTTestEnviroment:1:2167</name>
+      <type>MASK</type>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="8c9723b1-e4e9-4a00-846a-0168504722d1"/>
+    </workspaces>
+  </slsa.mm.parametertuning.VariableRegistry>
+</MF0>
